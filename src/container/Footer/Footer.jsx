@@ -11,11 +11,11 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contacts">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="__opensans">901 S. Main St, Suite 100</p>
+        <p className="p__opensans">901 S. Main St, Suite 100</p>
         <p className="p__opensans">+1 (844) 567-8989</p>
         <p className="p__opensans">+55 (11) 99999-9999</p>
       </div>
-      <div className="app__foot-links_logo">
+      <div className="app__footer-links_logo">
         <img src={images.gericht} alt="footer_logo" />
         <p className="p__opensans">Lorem, ipsum dolor sit.</p>
         <img
