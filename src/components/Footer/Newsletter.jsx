@@ -1,10 +1,18 @@
-import React from 'react';
-
-import './Newsletter.css';
+import React from "react";
+import { SubHeading } from "../../components";
+import "./Newsletter.css";
 
 const Newsletter = () => (
-  <div>
-    Newsletter
+  <div className="app__newsletter">
+    <div className="app__newsletter-heading">
+      <SubHeading title="Newsletter" />
+      <h1 className="headtext__cormorant">Sign up to our newsletter</h1>
+      <p className="p__opensans">get the latest news and updates.</p>
+    </div>
+    <div className="app__newsletter-input flex__center">
+      <input type="email" placeholder="Enter your email" />
+      <button className="custom__button">Subscribe</button>
+    </div>
   </div>
 );
 
